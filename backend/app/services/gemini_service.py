@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:7897"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7897"
+#os.environ["HTTP_PROXY"] = "http://127.0.0.1:7897"
+#os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7897"
 
 load_dotenv()
 
