@@ -7,7 +7,7 @@ interface GitHubResponse {
 export const getStarCount = cache(async () => {
   try {
     const response = await fetch(
-      "https://api.github.com/repos/BandarLabs/GitPodcast",
+      "https://api.github.com/repos/Xiao/GitPodcast",
       {
         headers: {
           Accept: "application/vnd.github.v3+json",

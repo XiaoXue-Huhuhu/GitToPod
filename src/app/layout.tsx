@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "GitToPod", 
   description:
     "迅速将 GitHub 代码仓库转换为播客，把代码变成有声的故事。", 
-  metadataBase: new URL("https://GitPodcast.com"),
+  metadataBase: new URL("https://GitPodCast.com"),
   keywords: [
     "github",
     "git 播客",
