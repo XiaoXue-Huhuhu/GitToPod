@@ -15,8 +15,8 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://gitpodcast.com",
-    "https://www.gitpodcast.com"
+    "https://gittopod.com",
+    "https://www.gittopod.com"
 ]
 
 app.add_middleware(
@@ -42,4 +42,4 @@ app.include_router(modify.router)
 @app.get("/")
 @limiter.limit("100/day")
 async def root(request: Request):
-    return {"message": "Hello from GitPodcast API!"}
+    return {"message": "Hello from GitToPod API!"}
